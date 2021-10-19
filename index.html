@@ -1,0 +1,78 @@
+<html>
+<style>
+:root {
+  --bg: #2B3339;
+  --fg: #D3C6AA;
+  --containerbg: #323A40;
+}
+
+html { font-size: 22px; }
+body { 
+  padding: 1rem; 
+  background-color: var(--bg);
+}
+.cards {
+  max-width: auto;
+  margin: 0 0;
+  display: grid;
+  grid-gap: 1rem;
+}
+.card {
+  background-color: var(--containerbg);
+  color: var(--fg);
+  padding: 1rem;
+}
+h1 {
+  font-size: 20px;
+  margin: 0px 0px 10px 0px;
+}
+.bookmark {
+  text-decoration: none;
+  display: block;
+  font-size: 18px;
+  color: var(--fg);
+}
+.search {
+    width: auto;
+    background-color: var(--containerbg);
+}
+.search-box {
+    width: 100%;
+    padding: 1em;
+    background-color: rgba(0, 0, 0, 0);
+    color: #b5b5a4;
+    border: none;
+}
+@media (min-width: 900px) {
+  .cards { grid-template-columns: repeat(3, 1fr); }
+}
+</style>
+<head>
+  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+</head>
+</body>
+<div class=search>
+  <form action=https://duckduckgo.com/?>
+    <input class=search-box name=q type=text placeholder=search value>
+  </form>
+</div>
+
+<div class="cards">
+  <div class="card">
+    <h1>OHM</h1>
+    <a class="bookmark" href="https://my.ohmportal.de" target="_blank">myohmportal</a>
+    <a class="bookmark" href="https://virtuohm.ohmportal.de/" target="_blank">virtuohm</a>
+    <a class="bookmark" href="https://elearning.ohmportal.de/" target="_blank">Moodle</a>
+    <a class="bookmark" href="https://intern.ohmportal.de/" target="_blank">Intranet</a>
+  </div>
+  <div class="card">
+    <h1>Design</h1>
+    <a class="bookmark" href="https://d-server.de/" target="_blank">d-server</a>
+  </div>
+  <div class="card">
+    <h1>Interaktions Design</h1>
+    <a class="bookmark" href="https://wiki.d.th-nuernberg.de/pages/viewpage.action?pageId=6619323" target="_blank">Wiki</a>
+  </div>
+</div>
+</body>
+</html>

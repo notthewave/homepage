@@ -1,0 +1,21 @@
+# homepage for THN design students
+
+The code is intentionally kept to a minimum, so people can learn HTML and CSS 🌱
+
+## few things to note
+- No javascript.
+- No remote fonts. The website loads the browsers default font.
+
+## colors
+Colorscheme can be changed in
+
+```
+:root {
+  soemting soemting...
+}
+```
+By defalt it uses https://github.com/sainnhe/everforest
+
+## TODO
+- [ ] detect if light or dark theme is set and adjust colors acordingly
+- [ ] colorscheme selector (if possible with pure html/css) 
