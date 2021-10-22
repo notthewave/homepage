@@ -16,7 +16,7 @@ Colorscheme can be changed in
   something something...
 }
 ```
-By defalt it uses https://github.com/sainnhe/everforest
+By default it uses https://github.com/sainnhe/everforest
 
 ## TODO
 - [ ] detect if light or dark theme is set and adjust colors acordingly
