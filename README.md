@@ -13,7 +13,7 @@ Colorscheme can be changed in
 
 ```
 :root {
-  soemting soemting...
+  soemthing soemthing...
 }
 ```
 By defalt it uses https://github.com/sainnhe/everforest
