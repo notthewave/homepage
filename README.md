@@ -7,6 +7,7 @@ The code is intentionally kept to a minimum, so people can learn HTML and CSS ðŸ
 - No remote fonts. The website loads the browsers default font.
 - Please complain
 - Send pull requests
+- meant to be portable (single file)
 
 ## colors
 Colorscheme can be changed in
